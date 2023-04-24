@@ -9,4 +9,3 @@ run: $(BIN)
 	$(BIN)
 $(OBJ): $(SOURCE)
 	$(CC) -c $(SOURCE) -o $(OBJ) $(CFLAGS)
-
